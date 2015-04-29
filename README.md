@@ -1,25 +1,24 @@
-# twitterbot
+# Darkbot
+Simplemente un ALPHA de lo que es un robot para la red de el pajarito azul
 
-A Python framework for creating interactive Twitter bots! CURRENTLY SUPER BETA. MAYBE EVEN ALPHA.
+Uselo bajo su propio riesgo
 
-** HIGHLY EXPERIMENTAL USE AT YR OWN RISK **
+## Instalacion
 
-## Installation
+Tiene como dependencias  [Tweepy](https://github.com/tweepy/tweepy), solo soporta Python 2.7 y no
+Python 3
 
-Due to dependencies on [Tweepy](https://github.com/tweepy/tweepy), twitterbot only supports Python 2.7 and *not*
-Python 3. Sorry :(
-
-I recommend setting it up in a virtualenv, because, well, yeah.
+Es recomendable virtualenv
 
 ``` bash
-mkdir bots && cd bots
+mkdir Darkbots && cd Darkbots
 virtualenv-2.7 venv && source venv/bin/activate
 pip install tweepy
 git clone https://github.com/thricedotted/twitterbot.git
-cd twitterbot && python setup.py install && cd ..
+cd Darkbot && python setup.py install && cd ..
 ```
 
-Cool! you're ready to start using twitterbot!
+Listos!! Solo hay que configurarlo!!
 
 
 ## Getting Started
