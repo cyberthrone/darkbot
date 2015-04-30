@@ -6,14 +6,13 @@ from twitterbot import TwitterBot
 class EchoBot(TwitterBot):
     def bot_init(self):
         """
-        Initialize and configure your bot!
+        Iniciar y configurar nuestra herramienta!
 
-        Use this function to set options and initialize your own custom bot
-        state (if any).
+        Use esta configuracion y opcion para iniciar y personalizar el estado de nuestra herramienta
         """
 
         ############################
-        # REQUIRED: LOGIN DETAILS! #
+        # REQUERIDOS: LOGIN DETALLES! #
         ############################
         self.config['api_key'] = ''
         self.config['api_secret'] = ''
@@ -22,7 +21,7 @@ class EchoBot(TwitterBot):
 
 
         ######################################
-        # SEMI-OPTIONAL: OTHER CONFIG STUFF! #
+        # SEMI-OPCIONAL: OTAS CONFIFURACIONES! #
         ######################################
 
         # how often to tweet, in seconds
@@ -49,7 +48,7 @@ class EchoBot(TwitterBot):
 
 
         ###########################################
-        # CUSTOM: your bot's own state variables! #
+        #CUSTOMIZARLO#
         ###########################################
         
         # If you'd like to save variables with the bot's state, use the
