@@ -21,7 +21,7 @@ class EchoBot(TwitterBot):
 
 
         ######################################
-        # SEMI-OPCIONAL: OTAS CONFIFURACIONES! #
+        # SEMI-OPCIONAL: OTRAS CONFIFURACIONES! #
         ######################################
 
         # how often to tweet, in seconds
